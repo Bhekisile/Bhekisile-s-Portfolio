@@ -1,11 +1,19 @@
-body {
+.container {
     font-family: "Poppins";
     font-style: normal;
+    width: 375px;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    border: 1px solid transparent;
 }
-.container ul{
+.nav_bar {
     display: flex;
-    align-items: center;
-    text-align: center;
+    list-style: none;
+    border: 1px solid transparent;
+    margin-bottom: 50px;
+    padding-top: 40px;
 }
 .start-nav {
     flex: 1;
@@ -15,9 +23,6 @@ body {
     font-size: 18px;
     line-height: 20px;
     color: #6070ff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 .end-nav {
     width: 46px;
@@ -26,12 +31,10 @@ body {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    justify-content: flex-end;
 }
-.ell_3 {
-    position: absolute;
-    width: 124px;
-    height: 124px;
-    padding: 92px 0 0 208px;
+.img_background {
+    background-image:url("image/header-shapes mobile.svg");
 }
 h1 {
     font-weight: 700;
@@ -41,9 +44,13 @@ h1 {
 }
 p {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
     color: #344563;
+    width: 327px;
+    height: 146px;
+    flex: none;
+    flex-grow: 0;
 }
 .connect {
     font-weight: 500;
@@ -51,27 +58,31 @@ p {
     line-height: 24px;
     color: #7F8CFF;
 }
+.social ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    column-gap: 25px;
+}
 .twitter {
-    position: absolute;
-    padding: 12.53% 80.56% 87.08% 18.06%;
+    width: 19.99px;
+    height: 19.96px;
 }
 .github {
-    position: absolute;
-    padding: 12.53% 72.43% 87.08% 26.32%;
+    
 }
 .angellist {
-    position: absolute;
-    padding: 12.53% 70.13% 87.08% 28.89%;
+    
 }
 .medium {
-    position: absolute;
-    padding: 12.57% 75.07% 87.08% 23.54%;
+    width: 20px;
+    height: 16px;  
 }
 .linkedin {
-    position: absolute;
-    padding: 12.53% 77.56% 87.08% 21.06%;
+    width: 12.71px;
+    height: 16.97px;
 }
-@media all and (max-width:500px) {
+@media all and (max-width:600px) {
     body {
         flex-basis: 100%;
     }

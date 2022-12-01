@@ -1,21 +1,19 @@
 .container {
-  font-family: "Poppins";
+  font-family: 'Poppins',Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   width: 375px;
   height: 600px;
-  left: 0px;
-  top: 0px;
   background: #fff;
   border: 1px solid transparent;
 }
-.nav_bar {
+ .nav_bar {
   display: flex;
   list-style: none;
   border: 1px solid transparent;
   margin-bottom: 50px;
   padding-top: 40px;
 }
-.start-nav {
+ .start-nav {
   flex: 1;
   width: 76px;
   height: 20px;
@@ -24,7 +22,7 @@
   line-height: 20px;
   color: #6070ff;
 }
-.end-nav {
+ .end-nav {
   width: 46px;
   height: 20px;
   font-weight: 500;
@@ -33,16 +31,16 @@
   color: #344563;
   justify-content: flex-end;
 }
-.img_background {
-  background-image:url("image/header-shapes mobile.svg");
+ .img_background {
+  background-image: url("image/header-shapes mobile.svg");
 }
-h1 {
+ h1 {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  color: #091E42;
+  color: #091e42;
 }
-p {
+ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -52,31 +50,33 @@ p {
   flex: none;
   flex-grow: 0;
 }
-.connect {
+ .connect {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
-.social ul {
+ .social ul {
   display: flex;
   list-style: none;
   padding: 0;
   column-gap: 25px;
 }
-.twitter {
+ .twitter {
   width: 19.99px;
   height: 19.96px;
-}   
-.medium {
-  width: 20px;
-  height: 16px;  
 }
-.linkedin {
+
+ .medium {
+  width: 20px;
+  height: 16px; 
+}
+
+ .linkedin {
   width: 12.71px;
   height: 16.97px;
 }
-@media all and (max-width:600px) {
+ @media all and (max-width:600px) {
     body {
         flex-basis: 100%;
     }

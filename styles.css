@@ -1,0 +1,79 @@
+body {
+    font-family: "Poppins";
+    font-style: normal;
+}
+.container ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.start-nav {
+    flex: 1;
+    width: 76px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.end-nav {
+    width: 46px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+}
+.ell_3 {
+    position: absolute;
+    width: 124px;
+    height: 124px;
+    padding: 92px 0 0 208px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #091E42;
+}
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+}
+.connect {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+}
+.twitter {
+    position: absolute;
+    padding: 12.53% 80.56% 87.08% 18.06%;
+}
+.github {
+    position: absolute;
+    padding: 12.53% 72.43% 87.08% 26.32%;
+}
+.angellist {
+    position: absolute;
+    padding: 12.53% 70.13% 87.08% 28.89%;
+}
+.medium {
+    position: absolute;
+    padding: 12.57% 75.07% 87.08% 23.54%;
+}
+.linkedin {
+    position: absolute;
+    padding: 12.53% 77.56% 87.08% 21.06%;
+}
+@media all and (max-width:500px) {
+    body {
+        flex-basis: 100%;
+    }
+}
+

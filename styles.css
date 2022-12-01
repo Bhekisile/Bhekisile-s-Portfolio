@@ -1,86 +1,80 @@
 .container {
-    font-family: "Poppins";
-    font-style: normal;
-    width: 375px;
-    height: 600px;
-    left: 0px;
-    top: 0px;
-    background: #ffffff;
-    border: 1px solid transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  width: 375px;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  background: #fff;
+  border: 1px solid transparent;
 }
 .nav_bar {
-    display: flex;
-    list-style: none;
-    border: 1px solid transparent;
-    margin-bottom: 50px;
-    padding-top: 40px;
+  display: flex;
+  list-style: none;
+  border: 1px solid transparent;
+  margin-bottom: 50px;
+  padding-top: 40px;
 }
 .start-nav {
-    flex: 1;
-    width: 76px;
-    height: 20px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    color: #6070ff;
+  flex: 1;
+  width: 76px;
+  height: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
 }
 .end-nav {
-    width: 46px;
-    height: 20px;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #344563;
-    justify-content: flex-end;
+  width: 46px;
+  height: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+  justify-content: flex-end;
 }
 .img_background {
-    background-image:url("image/header-shapes mobile.svg");
+  background-image:url("image/header-shapes mobile.svg");
 }
 h1 {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-    color: #091E42;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #091E42;
 }
 p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    width: 327px;
-    height: 146px;
-    flex: none;
-    flex-grow: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  width: 327px;
+  height: 146px;
+  flex: none;
+  flex-grow: 0;
 }
 .connect {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7F8CFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
 }
 .social ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    column-gap: 25px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  column-gap: 25px;
 }
 .twitter {
-    width: 19.99px;
-    height: 19.96px;
-}
-.github {
-    
-}
-.angellist {
-    
-}
+  width: 19.99px;
+  height: 19.96px;
+}   
 .medium {
-    width: 20px;
-    height: 16px;  
+  width: 20px;
+  height: 16px;  
 }
 .linkedin {
-    width: 12.71px;
-    height: 16.97px;
+  width: 12.71px;
+  height: 16.97px;
 }
 @media all and (max-width:600px) {
     body {

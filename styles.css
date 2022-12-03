@@ -1,5 +1,5 @@
 .container {
-  font-family: "Poppins",;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   width: 375px;
   height: 718px;
@@ -200,7 +200,7 @@
 #resume_button {
   width: 138px;
   height: 24px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -226,7 +226,7 @@
   width: 100px;
   height: 24px;
   border: none;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -350,19 +350,18 @@
 .flex_frame,
 .flex_skill {
   padding-left: 12px;
-  /*height: 24px;
+  height: 24px;
   font-weight: 500;
-  font-size: 20px;*/
+  font-size: 20px;
   color: #000;
   top: calc(50% - 24px / 2);
 }
 
 .chevron {
-  /*padding-left: 41.67%;
-  /*padding-right: 33.33%;*/
   color: #acb7c3;
   width: 6px;
   height: 12px;
+  text-align: end;
 }
 
 .flex_bar6 ul {
@@ -403,8 +402,3 @@
   font-weight: 500;
   color: #000;
 }
-
-.chevron {
-  text-align: end;
-}
-

@@ -1,5 +1,5 @@
 .container {
-  font-family: "Poppins";
+  font-family: "Poppins",;
   font-style: normal;
   width: 375px;
   height: 718px;
@@ -354,13 +354,13 @@
   font-weight: 500;
   font-size: 20px;*/
   color: #000;
-  top: calc(50% - 24px/2);
+  top: calc(50% - 24px / 2);
 }
 
 .chevron {
   /*padding-left: 41.67%;
   /*padding-right: 33.33%;*/
-  color:#acb7c3;
+  color: #acb7c3;
   width: 6px;
   height: 12px;
 }
@@ -381,8 +381,8 @@
   height: 146px;
   padding-left: 24px;
   margin-top: 1px;
-
 }
+
 .grid_bar5 {
   margin-top: 180px;
   display: grid;
@@ -402,4 +402,8 @@
   font-size: 20px;
   font-weight: 500;
   color: #000;
+}
+
+.chevron {
+  text-align: end;
 }

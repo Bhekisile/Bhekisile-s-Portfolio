@@ -254,7 +254,7 @@
 }
 
 /* Project 5 */
- 
+
 .border_project5 {
   width: 327px;
   height: 596px;
@@ -299,11 +299,12 @@
   padding: 12px;
 }
 
-  .flex_bar5 {
-    display: flex;
-    width: 303px;
-    justify-content: space-between;
+.flex_bar5 {
+  display: flex;
+  width: 303px;
+  justify-content: space-between;
 }
+
 .flex_frame {
   padding: 12px;
 }
@@ -328,4 +329,3 @@
   padding-left: 24px;
   margin-top: 1px;
 }
-  
